@@ -5,7 +5,6 @@ import {
   LightbulbIcon,
   Rocket,
   SplinePointerIcon,
-  TelescopeIcon,
 } from "lucide-react";
 
 // Sub-component: Card
