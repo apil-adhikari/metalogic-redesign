@@ -20,7 +20,7 @@ const Hero = () => {
 
         <form className="flex justify-center items-center border border-black/15 rounded-full p-2 mt-8 md:flex-1">
           <input
-            className="bg-transparent px-4 border-none outline-none p-2 font-mono"
+            className="bg-transparent px-4 border-none outline-none p-2 font-mono w-full"
             type="email"
             placeholder="Enter your email"
           />
