@@ -14,3 +14,7 @@ html {
 button {
   font-family: "Geist Mono", monospace;
 }
+
+body {
+  background-color: white;
+}

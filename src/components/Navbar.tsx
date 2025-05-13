@@ -3,7 +3,7 @@ import { Link } from "react-router";
 
 const Navbar = () => {
   return (
-    <nav className="py-4 flex justify-center">
+    <nav className="py-4 flex justify-center bg-[#0B0B0B] text-white">
       <div className="container px-1 max-w-6xlgxl">
         <div className="grid grid-cols-2 border border-red/15 p-2 rounded-full items-center gap-3">
           {/* LEFT MENU */}
