@@ -6,19 +6,19 @@ interface MouseState {
   y: number | null;
 }
 
-export function useMouse(): [MouseState, React.RefObject<HTMLDivElement>] {
+export function useMouse(): [MouseState, React.RefObject<HTMLDivElement | null>] {
   const [state, setState] = useState<MouseState>({
     x: null,
     y: null,
   });
 
-  const ref = useRef<HTMLDivElement>(null);
+  const ref = useRef<HTMLDivElement | null>(null);
 
   useLayoutEffect(() => {
     const handleMouseMove = (event: MouseEvent) => {
       setState({
-        x: event.clientX, // Viewport-based X
-        y: event.clientY, // Viewport-based Y
+        x: event.clientX,
+        y: event.clientY,
       });
     };
 
