@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import React from "react";
 
 // Import logos
 import quantumLogo from "../assets/images/quantum.svg";
